@@ -19,3 +19,15 @@ const jobs = [
 ];
 
 console.log(`Name: ${myName.toUpperCase()}`);
+
+for (let i = 0; i < jobs.length; i++) {
+  displayPosition(jobs[i].companyName, jobs[i].jobTitle, jobs[i].jobDescription);
+}
+
+/*********************************************************
+******      FUNCTIONS   **********************************
+*********************************************************/
+
+function displayPosition(company, job, description) {
+  console.log(`${job} at ${company} - ${description}`);
+}
