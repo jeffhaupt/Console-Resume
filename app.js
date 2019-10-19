@@ -1,4 +1,7 @@
+const bulletPoint = '\u2714';
 const myName = "Jeffery Haupt";
+const career = "Currently a lawyer, but hoping to do something about that!";
+const myDescription = "Please tell me that I am not too old to learn new Javascript tricks";
 
 const jobs = [
   {
@@ -19,6 +22,8 @@ const jobs = [
 ];
 
 console.log(`Name: ${myName.toUpperCase()}`);
+console.log(`Career: ${career}`);
+console.log(`Description: ${myDescription}`);
 
 for (let i = 0; i < jobs.length; i++) {
   displayPosition(jobs[i].companyName, jobs[i].jobTitle, jobs[i].jobDescription);
@@ -29,5 +34,5 @@ for (let i = 0; i < jobs.length; i++) {
 *********************************************************/
 
 function displayPosition(company, job, description) {
-  console.log(`${job} at ${company} - ${description}`);
+  console.log(`${bulletPoint} ${job} at ${company} - ${description}`);
 }
