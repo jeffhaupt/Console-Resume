@@ -22,6 +22,15 @@ const jobs = [
   }
 ];
 
+const mySkills = [
+  { skill: "Javascript", iscool: true },
+  { skill: "HTML", iscool: false },
+  { skill: "CSS", iscool: true }
+  { skill: "Playing classical harp", iscool: true },
+  { skill: "Spanish", iscool: false },
+  { skill: "Public Speaking", iscool: false }
+];
+
 console.log(`Name: ${myName.toUpperCase()}`);
 console.log(`Career: ${career}`);
 console.log(`Description: ${myDescription}`);
